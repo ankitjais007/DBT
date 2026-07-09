@@ -1,0 +1,217 @@
+[0m20:45:37.663539 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046dddc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105055e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105055b80>]}
+
+
+============================== 20:45:37.683514 | 58dbb1a1-5d6c-4a80-b181-aa51ac73a2f1 ==============================
+[0m20:45:37.683514 [info ] [MainThread]: Running with dbt=1.11.12
+[0m20:45:37.683852 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'write_json': 'True', 'target_path': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'empty': 'None', 'log_cache_events': 'False', 'profiles_dir': '/Users/ankitjaiswal/.dbt', 'invocation_command': 'dbt init', 'log_path': 'logs', 'introspect': 'True', 'printer_width': '80', 'indirect_selection': 'eager', 'partial_parse': 'True', 'quiet': 'False', 'version_check': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'debug': 'False'}
+[0m20:45:37.719759 [info ] [MainThread]: Creating dbt configuration folder at /Users/ankitjaiswal/.dbt
+[0m20:47:02.934314 [debug] [MainThread]: Starter project path: /Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:47:02.940287 [info ] [MainThread]: 
+Your new dbt project "ankit_dbt_youtube" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:47:02.940666 [info ] [MainThread]: Setting up your profile.
+[0m20:47:30.899322 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m20:47:30.899735 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m20:47:30.899921 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:00:18.469506 [info ] [MainThread]: Profile ankit_dbt_youtube written to /Users/ankitjaiswal/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:00:18.555237 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 881.0753, "process_in_blocks": "0", "process_kernel_time": 0.685205, "process_mem_max_rss": "293552128", "process_out_blocks": "0", "process_user_time": 3.221453}
+[0m21:00:18.557118 [debug] [MainThread]: Command `dbt init` succeeded at 21:00:18.556979 after 881.08 seconds
+[0m21:00:18.558163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b2ae70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c089100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c415820>]}
+[0m21:00:18.558992 [debug] [MainThread]: Flushing usage events
+[0m21:00:20.474254 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:00:30.390130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a18290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109169c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109169940>]}
+
+
+============================== 21:00:30.393281 | 07335b4a-d95e-4896-91a7-2de31b3772f0 ==============================
+[0m21:00:30.393281 [info ] [MainThread]: Running with dbt=1.11.12
+[0m21:00:30.393634 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'write_json': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'use_colors': 'True', 'empty': 'None', 'fail_fast': 'False', 'log_format': 'default', 'introspect': 'True', 'log_path': 'logs', 'version_check': 'True', 'printer_width': '80', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ankitjaiswal/.dbt', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'target_path': 'None', 'quiet': 'False', 'indirect_selection': 'eager'}
+[0m21:00:30.405474 [info ] [MainThread]: dbt version: 1.11.12
+[0m21:00:30.405737 [info ] [MainThread]: python version: 3.12.0
+[0m21:00:30.405904 [info ] [MainThread]: python path: /Users/ankitjaiswal/DBT/.venv/bin/python3
+[0m21:00:30.406060 [info ] [MainThread]: os info: macOS-26.6-arm64-arm-64bit
+[0m21:00:30.882158 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:00:30.882464 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:00:30.882643 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:00:31.523172 [info ] [MainThread]: Using profiles dir at /Users/ankitjaiswal/.dbt
+[0m21:00:31.523510 [info ] [MainThread]: Using profiles.yml file at /Users/ankitjaiswal/.dbt/profiles.yml
+[0m21:00:31.523691 [info ] [MainThread]: Using dbt_project.yml file at /Users/ankitjaiswal/DBT/dbt_project.yml
+[0m21:00:31.523850 [info ] [MainThread]: adapter type: databricks
+[0m21:00:31.523998 [info ] [MainThread]: adapter version: 1.10.9
+[0m21:00:31.524148 [info ] [MainThread]: Configuration:
+[0m21:00:31.524289 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:00:31.524423 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:00:31.524556 [info ] [MainThread]: Required dependencies:
+[0m21:00:31.524770 [debug] [MainThread]: Executing "git --help"
+[0m21:00:31.558347 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:00:31.558998 [debug] [MainThread]: STDERR: "b''"
+[0m21:00:31.559208 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:00:31.559409 [info ] [MainThread]: Connection:
+[0m21:00:31.559610 [info ] [MainThread]:   host: dbc-235fcbc3-e513.cloud.databricks.com
+[0m21:00:31.559765 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/7096e344e7ee4db1
+[0m21:00:31.559911 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m21:00:31.560050 [info ] [MainThread]:   schema: default
+[0m21:00:31.560440 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m21:00:31.674461 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m21:00:31.674800 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:00:31.674977 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:00:31.675132 [debug] [MainThread]: On debug: select 1 as id
+[0m21:00:31.675270 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:01:50.380233 [error] [MainThread]: Encountered an error:
+
+[0m21:01:50.405072 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1046, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1317, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/cli/main.py", line 425, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 144, in run
+    connection_status = self.test_connection()
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/task/debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/spark/impl.py", line 519, in debug_query
+    self.execute("select 1 as id")
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/impl.py", line 329, in execute
+    return super().execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt_common/record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 508, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 297, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 270, in add_query
+    handle: DatabricksHandle = connection.handle
+                               ^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 424, in open
+    return cls.retry_connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/base/connections.py", line 237, in retry_connection
+    connection.handle = connect()
+                        ^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/connections.py", line 404, in connect
+    conn = DatabricksHandle.from_connection_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/dbt/adapters/databricks/handle.py", line 211, in from_connection_args
+    conn = dbsql.connect(**conn_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/__init__.py", line 93, in connect
+    return Connection(server_hostname, http_path, access_token, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/client.py", line 332, in __init__
+    self.session.open()
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/session.py", line 302, in open
+    self._session_id = self.backend.open_session(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/backend/thrift_backend.py", line 604, in open_session
+    response = self.make_request(self._client.OpenSession, open_session_req)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/backend/thrift_backend.py", line 517, in make_request
+    response_or_error_info = attempt_request(attempt)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/backend/thrift_backend.py", line 423, in attempt_request
+    response = method(request)
+               ^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/thrift_api/TCLIService/TCLIService.py", line 204, in OpenSession
+    self.send_OpenSession(req)
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/thrift_api/TCLIService/TCLIService.py", line 213, in send_OpenSession
+    self._oprot.trans.flush()
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/databricks/sql/auth/thrift_http_client.py", line 193, in flush
+    self.__resp = self.__pool.request(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries.sleep()
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 387, in sleep
+    self._sleep_backoff()
+  File "/Users/ankitjaiswal/DBT/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 371, in _sleep_backoff
+    time.sleep(backoff)
+KeyboardInterrupt
+
+[0m21:01:50.414593 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 80.08425, "process_in_blocks": "0", "process_kernel_time": 0.382548, "process_mem_max_rss": "225591296", "process_out_blocks": "0", "process_user_time": 1.574694}
+[0m21:01:50.417273 [debug] [MainThread]: Command `dbt debug` failed at 21:01:50.417046 after 80.09 seconds
+[0m21:01:50.418178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109169d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3e9580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4448c0>]}
+[0m21:01:50.418772 [debug] [MainThread]: Flushing usage events
+[0m21:01:52.242110 [debug] [MainThread]: An error was encountered while trying to flush usage events
