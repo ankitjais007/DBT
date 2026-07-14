@@ -17,6 +17,9 @@ sources:
         description: "This table contains store data"
       - name: fact_returns
         description: "This table contains returns data"
+      - name: items
+        description: "This table contains items data"
+
 
 
 
