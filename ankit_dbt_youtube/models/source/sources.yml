@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: source
     description: "This is the source data for the dbt tutorial"
-    database: dbt_tutorial_dev
+    database: '{{ target.catalog }}'
     tables:
       - name: fact_sales
         description: "This table contains sales data"

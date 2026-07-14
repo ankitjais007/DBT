@@ -4,7 +4,7 @@ snapshots:
     relation: ref('source_gold_items')  # Reference to the source model for items
     config:
       schema: gold
-      database: dbt_tutorial_dev
+      database: '{{ target.catalog }}'
       unique_key: id
       strategy: timestamp
       updated_at: updateDate
