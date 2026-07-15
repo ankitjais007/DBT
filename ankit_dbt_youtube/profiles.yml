@@ -6,7 +6,7 @@ ankit_dbt_youtube:
       http_path: /sql/1.0/warehouses/7096e344e7ee4db1
       schema: default
       threads: 1
-      token: dapiceb2ffe48d95d20fab7d0bd367161ea3
+      token: 
       type: databricks
     prod:
       catalog: dbt_tutorial_prod
@@ -14,6 +14,6 @@ ankit_dbt_youtube:
       http_path: /sql/1.0/warehouses/7096e344e7ee4db1
       schema: default
       threads: 1
-      token: dapiceb2ffe48d95d20fab7d0bd367161ea3
+      token: 
       type: databricks 
   target: dev
