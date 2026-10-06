@@ -1,17 +1,22 @@
-with trips as (
-    select
-    ride_id,
-    rideable_type,
-    date(to_timestamp(started_at)) as trip_date,
-    start_statio_id as start_station_id,
-    end_station_id,
-    member_csual as member_casual,
-    timestampdiff(second,to_timestamp(started_at),to_timestamp(ended_at)) as trip_duration_seconds ,
-    -- timestampdiff(minutes,to_timestamp(started_at),to_timestamp(ended_at)) as trip_duration_seconds 
+WITH TRIPS as (
 
-    from 
-    {{ source('demo', 'bike') }}
-    where ride_id!='ride_id' 
+select
+RIDE_ID,
+-- RIDEABLE_TYPE,
+DATE(TO_TIMESTAMP(STARTED_AT)) AS TRIP_DATE,
+START_STATIO_ID AS START_STATION_ID,
+END_STATION_ID,
+MEMBER_CSUAL AS MEMBER_CASUAL,
+TIMESTAMPDIFF(SECOND,TO_TIMESTAMP(STARTED_AT),TO_TIMESTAMP(ENDED_AT)) AS TRIP_DURATION_SECONDS
+
+from {{ ref('stg_bike') }}
+
+where RIDE_ID != '"bikeid"' and RIDE_ID != 'bikeid'
+
+
+
 )
 
-select * from trips
+select
+*
+from TRIPS
