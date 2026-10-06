@@ -1,4 +1,4 @@
-with cte as (
+with date_dimesnion as (
     select
     to_timestamp(started_at) as started_at,
     date(to_timestamp(started_at)) as date_started_as,
@@ -9,4 +9,4 @@ with cte as (
     {{ source('demo', 'bike') }}
     where STARTED_AT != 'started_at'
 )
-select * from cte
+select * from date_dimesnion
